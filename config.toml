@@ -1,32 +1,6 @@
 enable-magisk-update = true
 parallel-jobs = 1
 
-# ReVanced Extended
-[YouTube-Extended]
-app-name = "YouTube"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-included-patches = "'Return YouTube Username'"
-excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
-
-[YT-Music-Extended]
-app-name = "YT-Music"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-arch = "arm64-v8a"
-build-mode = "both"
-included-patches = "'Disable music video in album' 'Hide player overlay filter' 'Return YouTube Username'"
-excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
-patcher-args = "-e 'Dark theme' -OdarkThemeBackgroundColor=@android:color/black"
-
 # ReVanced
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
