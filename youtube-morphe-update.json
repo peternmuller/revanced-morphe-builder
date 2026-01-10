@@ -1,6 +1,6 @@
 {
-  "version": "20.37.48 (patches 1.3.0.mpp)",
-  "versionCode": 105,
-  "zipUrl": "https://github.com/peternmuller/revanced-morphe-builder/releases/download/105/youtube-morphe-revanced-magisk-v20.37.48-all.zip",
+  "version": "20.37.48 (patches 1.3.1.mpp)",
+  "versionCode": 106,
+  "zipUrl": "https://github.com/peternmuller/revanced-morphe-builder/releases/download/106/youtube-morphe-revanced-magisk-v20.37.48-all.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-morphe-builder/update/build.md"
 }
