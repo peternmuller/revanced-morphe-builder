@@ -1,6 +1,6 @@
 {
-  "version": "8.30.54 (patches 3.15.0)",
-  "versionCode": 101,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/101/yt-music-revanced-anddea-magisk-v8.30.54-arm64-v8a.zip",
-  "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
+  "version": "8.30.54 (patches 3.16.0.rvp)",
+  "versionCode": 114,
+  "zipUrl": "https://github.com/peternmuller/revanced-morphe-builder/releases/download/114/yt-music-revanced-anddea-magisk-v8.30.54-arm64-v8a.zip",
+  "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-morphe-builder/update/build.md"
 }
