@@ -53,7 +53,7 @@ build-mode = "both"
 [YT-Music-Morphe]
 app-name = "YT Music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+github-release-dlurl = "https://github.com/AzyrRuthless/YTYTM-APK/releases/latest"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
