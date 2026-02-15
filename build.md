@@ -5,9 +5,9 @@ Install [ReVanced GmsCore](https://github.com/ReVanced/GmsCore/releases/latest) 
 (Optional) Use [zygisk-detach](https://github.com/j-hc/zygisk-detach/releases/latest) to detach root ReVanced/Morphe YouTube and YouTube Music from the Play Store
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.50.1.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.1)  
+Patches: ReVanced/patches-5.48.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)  
 
 Skipped:  
 Patches: MorpheApp/patches-1.13.0.mpp  
-Patches: anddea/patches-3.16.0.rvp              
+Patches: anddea/patches-3.16.0.rvp                
