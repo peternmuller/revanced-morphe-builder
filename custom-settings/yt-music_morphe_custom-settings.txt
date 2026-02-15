@@ -1,4 +1,5 @@
 "custom_branding_icon": "original",
+"disable_drc_audio": true,
 "music_change_miniplayer_color": true,
 "music_hide_cast_button": false,
 "music_hide_navigation_bar_samples_button": true

@@ -3,6 +3,7 @@
 "change_start_page": "subscriptions",
 "copy_video_url_timestamp": false,
 "custom_branding_icon": "original",
+"disable_drc_audio": true,
 "disable_fullscreen_ambient_mode": true,
 "disable_resuming_shorts_player": true,
 "disable_signin_to_tv_popup": true,
