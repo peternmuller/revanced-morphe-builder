@@ -1,5 +1,4 @@
 enable-magisk-update = true
-parallel-jobs = 1
 
 # ReVanced
 [YouTube]
