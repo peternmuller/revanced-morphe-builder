@@ -1,4 +1,4 @@
-enable-magisk-update = true
+enable-module-update = true
 
 # ReVanced
 [YouTube]

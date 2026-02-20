@@ -54,9 +54,9 @@ You can consider using [rvmm-zygisk-mount](https://github.com/j-hc/rvmm-zygisk-m
 ```bash
 bash <(curl -sSf https://raw.githubusercontent.com/peternmuller/revanced-morphe-builder/main/build-termux.sh)
 ```
-### On Desktop
+### On Linux
 ```bash
-git clone https://github.com/peternmuller/revanced-morphe-builder
+git clone https://github.com/peternmuller/revanced-morphe-builder --depth 1
 cd revanced-morphe-builder
 ./build.sh
 ```
