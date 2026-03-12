@@ -24,6 +24,7 @@
 "hide_medical_panels": false,
 "hide_movies_section": false,
 "hide_player_flyout_help": true,
+"hide_player_related_videos_overlay": true,
 "hide_remix_button": true,
 "hide_shorts_button": true,
 "hide_shorts_home": true,
