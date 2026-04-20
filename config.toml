@@ -43,7 +43,7 @@ patcher-args = "-e 'Dark theme' -OdarkThemeBackgroundColor=@android:color/black"
 # Morphe
 [YouTube-Morphe]
 app-name = "YouTube"
-direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.youtube-20.45.36-all.apk"
+direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.youtube-20.47.62-all.apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -54,7 +54,7 @@ build-mode = "both"
 
 [YT-Music-Morphe]
 app-name = "YT Music"
-direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.apps.youtube.music-8.44.54-arm64-v8a.apk"
+direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.apps.youtube.music-8.47.56-arm64-v8a.apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 patches-source = "MorpheApp/morphe-patches"
