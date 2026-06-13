@@ -2,6 +2,7 @@
 "disable_drc_audio": true,
 "music_change_miniplayer_color": true,
 "music_enable_forced_miniplayer": true,
+"music_enable_swipe_to_dismiss_miniplayer": true,
 "music_hide_cast_button": false,
 "music_hide_navigation_bar_samples_button": true,
 "settings_search_history": false
