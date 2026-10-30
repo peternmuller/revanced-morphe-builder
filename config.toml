@@ -16,7 +16,6 @@ build-mode = "both"
 # ReVanced Extended by anddea
 [YouTube-anddea]
 app-name = "YouTube"
-direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.youtube-21.13.164-all.apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 patches-source = "anddea/revanced-patches"
@@ -28,7 +27,6 @@ patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
 
 [YT-Music-anddea]
 app-name = "YT Music"
-direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.apps.youtube.music-9.15.51-arm64-v8a.apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 patches-source = "anddea/revanced-patches"
@@ -42,6 +40,7 @@ patcher-args = "-e 'Dark theme' -OdarkThemeBackgroundColor=@android:color/black"
 # Morphe
 [YouTube-Morphe]
 app-name = "YouTube"
+direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.youtube-21.30.216-all.apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 patches-source = "MorpheApp/morphe-patches"
@@ -52,7 +51,7 @@ patcher-args = "-e 'Custom branding' -OappIcon=original"
 
 [YT-Music-Morphe]
 app-name = "YT Music"
-direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.apps.youtube.music-9.20.53-arm64-v8a.apk"
+direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.apps.youtube.music-9.30.53-arm64-v8a.apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 patches-source = "MorpheApp/morphe-patches"
