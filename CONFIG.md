@@ -1,6 +1,6 @@
 # Config
 
-Adding another revanced app is as easy as this:
+Adding another app is as easy as this:
 ```toml
 [Some-App]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/inc/app"
@@ -14,13 +14,13 @@ There exists an example below with all defaults shown and all the keys explicitl
 ```toml
 parallel-jobs = 1                    # amount of cores to use for parallel patching, if not set $(nproc) is used
 compression-level = 9                # module zip compression level
-remove-rv-integrations-checks = true # remove checks from the revanced integrations
+remove-rv-integrations-checks = true # remove checks from the extension
 dpi = "nodpi anydpi 120-640dpi"      # dpi packages to be searched in order. default: "nodpi anydpi"
 
-patches-source = "revanced/revanced-patches" # where to fetch patches bundle from. default: "revanced/revanced-patches"
-cli-source = "ReVanced/revanced-cli"             # where to fetch cli from. default: "ReVanced/revanced-cli"
+patches-source = "MorpheApp/morphe-patches" # where to fetch patches bundle from. default: "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"             # where to fetch cli from. default: "MorpheApp/morphe-cli"
 # options like cli-source can also set per app
-rv-brand = "ReVanced Extended" # rebrand from 'ReVanced' to something different. default: "ReVanced"
+rv-brand = "Morphe" # rebrand from 'Morphe' to something different. default: "Morphe"
 
 patches-version = "v2.160.0" # 'latest', 'dev', or a version number. default: "latest"
 cli-version = "v5.0.0"       # 'latest', 'dev', or a version number. default: "latest"
