@@ -792,6 +792,7 @@ build_rv() {
 			v=$(git tag --sort=committerdate | tail -1) || :
 			if [[ $v =~ ^[0-9]+$ ]]; then
 				v=$((v + 1))
+				patcher_args+=("-e 'j-hc Update Check'")
 				patcher_args+=("-e 'j-hc Update Check Res' -OcurrentTag='\"$v\"' -OupdateRepo='\"${GITHUB_REPOSITORY}\"'")
 			else
 				epr "'$v' is not a proper version tag"
