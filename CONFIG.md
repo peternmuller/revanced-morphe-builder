@@ -6,9 +6,6 @@ Adding another revanced app is as easy as this:
 apkmirror-dlurl = "https://www.apkmirror.com/apk/inc/app"
 ```
 
-> [!WARNING]
-> When a patch name itself contains a single quote, double it inside the string (e.g. 'Hide ''Get Music Premium''').
-
 ## More about other options:
 
 There exists an example below with all defaults shown and all the keys explicitly set.  
@@ -55,14 +52,16 @@ include-stock = "merged"                                   # 'merged', 'split' o
 exclusive-patches = false                                  # exclude all patches by default. default: false
 
 # enables in-app update check for `apk` build-mode. default: false
-# as of now, works only for yt, yt music, twitter and gphotos
 enable-update-checks = true
 
 apkmirror-dlurl = "https://www.apkmirror.com/apk/inc/app"
-# direct download url. the url must have point to an apk file with name format shown in this example
+# direct download url. the url must point to an apk file with name format shown in this example
 direct-dlurl = "https://website/com.google.android.youtube-20.40.45-all.apk"
 
 module-prop-name = "some-app-module"                       # module prop name.
 dpi = "360-480dpi"                                         # used to select apk variant from apkmirror. default: nodpi
 arch = "arm64-v8a"                                         # 'arm64-v8a', 'arm-v7a', 'all', 'both'. 'both' downloads both arm64-v8a and arm-v7a. default: all
 ```
+
+> [!WARNING]
+> When a patch name itself contains a single quote, double it inside the string (e.g. 'Hide ''Get Music Premium''').
